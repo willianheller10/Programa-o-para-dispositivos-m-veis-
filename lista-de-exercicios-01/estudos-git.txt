@@ -1,0 +1,22 @@
+O que é "controle de versão", e porque eu deveria me importar?
+
+Controle de versão é um sistema que registra alterações em um arquivo ou conjunto de arquivos ao longo do tempo para
+que você possa lembrar versões específicas mais tarde. Para os exemplos neste livro que você irá usar o código-fonte 
+de software como os arquivos que estão sendo versão controlada, embora na realidade você pode fazer isso com quase 
+qualquer tipo de arquivo em um computador.
+
+Se você é um designer gráfico ou web designer e quer manter todas as versões de uma imagem ou layout (o que você certamente 
+deveria querer), um sistema de controle de versão (VCS) é a coisa correta a ser usada. Ele permite que você reverta arquivos
+de volta para um estado anterior, reverta todo o projeto de volta para um estado anterior, compare as mudanças ao longo do tempo,
+veja quem modificou pela última algo que pode estar causando um problema, quem introduziu um problema, quando, e muito mais. Usar 
+um VCS também significa que se você estragar tudo ou perder arquivos, você pode facilmente recuperar. Além disso, você tem tudo isso
+por muito pouca sobrecarga.
+
+Sistemas Locais de Controle de Versão
+
+O método de controle de versão de muitas pessoas é copiar os arquivos para outro diretório (talvez um diretório com carimbo
+de tempo, se eles forem espertos). Esta abordagem é muito comum, porque é tão simples, mas também é incrivelmente propenso a
+erros. É fácil esquecer em qual diretório você está e acidentalmente sobreescrever o arquivo errado ou copiar arquivos que não quer.
+
+Para lidar com este problema, programadores há muito tempo desenvolveram VCSs locais que tem um banco de dados simples que mantêm 
+todas as alterações nos arquivos sob controle de revisão.
